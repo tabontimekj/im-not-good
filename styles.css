@@ -48,31 +48,6 @@ body, html {
     transform: scale(1.05);
 }
 
-#fullscreen-warning {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: red;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    z-index: 1000;
-    animation: flash 0.5s infinite alternate;
-}
-
-@keyframes flash {
-    from { background-color: red; }
-    to { background-color: black; }
-}
-
-#warning-text {
-    font-size: 5vw;
-    font-weight: bold;
-    color: white;
-}
-
 #quote-screen {
     height: 100%;
     width: 100%;
